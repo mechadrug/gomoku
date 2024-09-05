@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=11,10,9,edge">
+	<meta name="keywords" content="学院新闻_中国人民大学高瓴人工智能学院">
+	<meta name="description" content="学院新闻_中国人民大学高瓴人工智能学院">
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+	<title>“推荐算法”究竟是什么&#xff1f;这篇科普报告帮你快速了解</title>
+	<link rel="stylesheet" href="../../css/swiper.css">
+<link rel="stylesheet" href="../../css/animate.css">
+<link rel="stylesheet" href="../../css/bootstrap.min.css">
+<link rel="stylesheet" href="../../css/cn_ruc_style.css?v=2.0">
+<link rel="stylesheet" href="../../css/sina-nav-ruc.css?v=1.0">
+ <link rel="stylesheet" href="../../css/font-awesome.css?v=1.0">
+
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/wow.min.js"></script>
+<script src="../../js/all.js"></script>
+<script src="../../js/swiper.js"></script>
+<script src="../../js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="page-wrapper">
+<header class="main-header">
+        <nav class="main-menu">
+            <div class="container">
+                <div class="logo-box">
+                    <a href="index.html" aria-label="logo image"><img src="../../images/cn_ruc_logo.png" width="280" alt=""></a>
+                    <span class="mobile-nav__toggler"><i class="fa fa-bars"></i></span>
+                </div><!-- /.logo-box -->
+                <ul class="main-menu__list">
+                    <li>
+                        <a  href="../../index.htm">首页</a>
+                    </li>
+
+					 
+                 
+                    <li class="dropdown">
+
+  <a href="../../overview/intro/index.htm">学院概况</a>
+
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+
+                    <!--<a  style="cursor:pointer">学院概况</a>-->
+                    <ul>
+                                                <li><a href="../../overview/intro/index.htm">学院简介</a></li>
+                                                <li><a href="../../overview/message/index.htm">学院寄语</a></li>
+                                                <li><a href="../../overview/leadership/index.htm">领导机构</a></li>
+                                            </ul>
+					                </li>
+                
+                 
+                    <li class="dropdown">
+
+  <a href="index.htm">新闻公告</a>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+
+                    <!--<a  style="cursor:pointer">新闻公告</a>-->
+                    <ul>
+                                                <li><a href="index.htm">学院新闻</a></li>
+                                                <li><a href="../notice/index.htm">学院公告</a></li>
+                                                <li><a href="../xwrw/index.htm">新闻人物</a></li>
+                                                <li><a href="../jcsp/index.htm">精彩视频</a></li>
+                                                <li><a href="../lecture/index.htm">学术讲座</a></li>
+                                            </ul>
+					                </li>
+                
+                 
+                    <li class="dropdown">
+
+  <a href="https://gsai.ruc.edu.cn">师资队伍</a>
+
+                        
+                        
+                        
+                        
+
+
+
+                    <!--<a  style="cursor:pointer">师资队伍</a>-->
+                    <ul>
+                                                <li><a href="https://gsai.ruc.edu.cn">师资队伍</a></li>
+                                                <li><a href="../../academicfaculty/rczp/index.htm">人才招聘</a></li>
+                                            </ul>
+					                </li>
+                
+                 
+                    <li class="dropdown">
+
+  <a href="https://gsai.ruc.edu.cn/addons/teacher/index/tutor.html">学生培养</a>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+
+                    <!--<a  style="cursor:pointer">学生培养</a>-->
+                    <ul>
+                                                <li><a href="https://gsai.ruc.edu.cn/addons/teacher/index/tutor.html">人才培养导师组</a></li>
+                                                <li><a href="../../student/undergraduate/index.htm">本科生</a></li>
+                                                <li><a href="../../student/master/index.htm">学术型硕士</a></li>
+                                                <li><a href="../../student/doctor/index.htm">博士生</a></li>
+                                                <li><a href="../../student/educationNotice/index.htm">教育公告</a></li>
+                                            </ul>
+					                </li>
+                
+  <li >
+<a href="http://www.globalhha.com/"  target="_self"><span class="cn">高礼研究院</span></a>
+                </li>
+                                </ul>
+                <!-- /.main-menu__list -->
+
+                <div class="main-header__info">
+                    <div class="main-header__info-phone">
+                        <a href="http://ai.ruc.edu.cn/english/index.htm" class="text-danger">En</a>
+                    </div>
+                    <div class="main-header__info-phone">
+                        <a  id="search_btn"  onclick="searchwd()"><i class="fa fa-search"></i></a>
+                    </div>
+
+                    <div class="main-header__info-phone">
+                        <a href="https://gsai.ruc.edu.cn/index/user/login.html" title="教师入口">教师入口</a>
+                    </div>
+                </div><!-- /.main-header__info -->
+            </div><!-- /.container -->
+        </nav>
+        <!-- /.main-menu -->
+    </header><!-- /.main-header -->
+
+   <div class="common_width search_warp wrapper-md" id="search_warp" style="display: none">
+        <form action="/cms/web/search/index.jsp" id="searchForm"  class="">
+            <div class="input-group input-group-lg">
+                <input type="hidden" name="siteID" value="899f394ab4dd4a3eb491dae626e7d6ad"/>
+                <input type="text" class="form-control " name="query" placeholder="请输入关键词检索内容"/>
+                <input type="hidden" name="sortField" value="publishDate">
+                <input type="hidden" name="searchScope" value="0"/>
+                <span class="input-group-btn">
+       <button name="submitok" type="button" class="btn btn-danger input-lg  ">检索</button>
+   </span>
+            </div>
+        </form>
+    </div>
+
+    <div class="stricky-header stricked-menu main-menu">
+        <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+    </div><!-- /.stricky-header -->	<div class="page">
+		<div class="page_tit">
+			<div class="common_width">
+				
+			</div>
+		</div>
+		<div class="page_content clearfix common_width_1">
+			<div class="fl">
+				<h2>新闻公告</h2>
+				<ul class="left_nav">
+										<li><a href="index.htm">学院新闻</a></li>
+										<li><a href="../notice/index.htm">学院公告</a></li>
+										<li><a href="../xwrw/index.htm">新闻人物</a></li>
+										<li><a href="../jcsp/index.htm">精彩视频</a></li>
+										<li><a href="../lecture/index.htm">学术讲座</a></li>
+									</ul>
+			</div>
+			<div class="fr">
+<div class="crumbs">您所在的位置：
+										<a href="../../index.htm">首页<span>-</span></a>
+										<a href="../index.htm">新闻公告<span>-</span></a>
+										<a href="index.htm">学院新闻<span>-</span></a>
+									</div>
+				<h3 style="display: none;"><span>学院新闻</span></h3>
+				<div class="tit text-left">
+					<h6>“推荐算法”究竟是什么&#xff1f;这篇科普报告帮你快速了解</h6>
+					<span>日期：2022-01-07</span><span>访问量：<span id="visit_count"  style="padding:0;"><script src="/wm/api/visit/get/article?siteID=b789c5741b814b2998e36b9a58c98f96&articleID=063a0719d6524766b9410fd229792ae4" async>
+</script>
+</span></span><div class="bdsharebuttonbox fr" style="    width: auto;"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_more" data-cmd="more"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+				</div>																				
+				<p style="line-height:180%;text-indent:2em;font-size:14pt">算法究竟是什么？我们为什么需要算法？</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">算法是否能服务人在获取信息时对效率提升、公平发展的诉求？</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">今年，在中国人民大学高瓴人工智能学院举办的“推荐算法社会价值与可持续发展”研讨会上，我们发布了《算法向善与个性化推荐发展研究报告》（下称《报告》）。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">在这份算法科普性报告中，课题组围绕这些热点问题进行了探讨。</p> 
+<p style="text-align:center"> 
+ <video class="edui-upload-video  vjs-default-skin                     video-js" controls="" preload="none" width="600" src="http://v.globalhha.com/vedio/1fcb985ba852107172ebf965dd86bfd6.mp4" data-setup="{}"> 
+  <source src="http://v.globalhha.com/vedio/1fcb985ba852107172ebf965dd86bfd6.mp4" type="video/mp4"> 
+ </video></p> 
+<p style="text-indent:2em"><strong><span style="font-size:18px">1、算法是什么？我们为何需要算法？</span></strong></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">互联网数据中心发布的《数据时代2025》报告显示，全球每年产生的数据将从2018年的33ZB（十万亿亿字节）增长到175ZB，相当于每天产生491EB（百亿亿字节）的数据。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt"><span style="font-size:14pt;text-indent:2em">在本质上，算法是“以数学方式或者计算机代码表达的意见”。其中，</span><strong style="font-size:14pt;text-indent:2em">推荐系统</strong><span style="font-size:14pt;text-indent:2em">就是一个信息过滤系统，帮助用户减少因浏览大量无效数据而造成的时间、精力浪费。</span></p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/014f34750d3848259d07023f9d89e6db.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt;text-align:center">图1 ：用数学公式解决“鸡兔同笼”问题体现了算法思维</p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/afe291fe543d4947b773128a2fe47091.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt;text-align:center">图2：推荐算法帮助“宝妈”节省信息搜索时间</p> 
+<p style="text-indent:2em"><strong><span style="font-size:18px">2、推荐技术发展历史上的关键事件有哪些？</span></strong></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">“信息过载（Information Overload）”是在上个世纪80、90年代就已经存在的概念。随着信息技术和互联网的快速发展，人类从信息匮乏时代走向了信息过载时代。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">《报告》研究指出，早期的研究提出了<strong>通过信息检索和过滤</strong>的方式来解决这个问题。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">到了上世纪90年代中期，研究者开始通过预测用户对推荐的物品、内容或服务的评分，试图解决信息过载问题。<strong>推荐系统由此也作为独立研究领域出现了。</strong></p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/776e1fcbbaaf4fa18e68918172c055ba.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt;text-align:center">图3：推荐系统发展历史</p> 
+<p style="text-indent:2em"><strong><span style="font-size:18px">3、推荐系统有哪几个类型？</span></strong></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">在《报告》看来，推荐系统发展至今，其核心技术可大致分为“<strong>基于协同过滤的推荐方法</strong>”、“<strong>基于内容的推荐方法</strong>”，以及“<strong>混合推荐方法</strong>”。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt"><strong>基于协同过滤</strong>的推荐方法，本质是根据相似的用户具有相似的喜好，推荐给他们喜欢的物品、内容或者服务。</p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/385a023cfac040cba082b5c76ec44d06.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt;text-align:center">图4：基于协同过滤的推荐方法</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt"><strong>基于内容</strong>的推荐方法：根据项的相关信息（描述信息、标签等）、用户相关信息及用户对项的操作行为（评论、收藏、点赞、观看、浏览、点击等），来构建推荐算法模型。</p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/5bacfa3130df4e4b9e210dd116956538.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt;text-align:center">图5：基于内容的推荐方法</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt"><strong>混合推荐</strong>方法：衡量各推荐方法的利弊，扬长避短，通过加权、切换、混杂、特征组合等方式避免或弥补各推荐技术弱点，进一步提升推荐方法性能。</p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/01ea00176bbc4c8dba37a6e1771e08ff.png" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt;text-align:center">图6：融合知识图谱的混合推荐方法</p> 
+<p style="text-indent:2em"><strong><span style="font-size:18px">4、什么是个性化推荐算法？</span></strong></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">纵观推荐系统的发展历史，可将其大致分为非个性化推荐系统和个性化推荐系统。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">其中，<strong>个性化推荐系统，就是为每一个特定用户提供特定的服务，实现“千人千面”，服务个性化诉求</strong>。</p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/aad1d775ab0c4c27aa932758cdb421a3.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt;text-align:center">图7：在个性化推荐算法下，不同人搜索“京剧”一词结果不同</p> 
+<p style="text-indent:2em"><strong><span style="font-size:18px">5、推荐算法，会导致信息窄化吗？</span></strong></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">在外界的印象里，个性化推荐就像漏斗一样，会将推荐内容与用户相匹配，倾向于向用户推荐高度符合其偏好的内容，致使推荐的内容越来越窄化。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">但与外界的固有认知相反，《报告》认为在行业实践中，互联网应用（特别是位于头部的大型平台）有追求算法多样性的内在动力。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt"><strong>在对行业内代表性应用的数据分析后，《报告》发现，阅读内容的类型数量是否够多、所阅读内容类型的分散程度是否够高，与用户是否能长期留存关联密切，呈正相关。</strong>上述两项指标对用户长期留存的作用，可以与信息的展现总量、用户的停留时长、用户阅读量等指标的影响相媲美。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">推荐技术并不是单纯地“投其所好”。在一些专家看来，在推荐已知的用户感兴趣内容基础上，如果能深入激发、满足用户的潜在需求，那么算法就能更好地满足人对信息的多维度诉求。</p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/aee6069f649849aab70e88fd5fb913f6.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">图8：贵州返乡创业青年丁浪用抖音号@黔东农仓 记录腌蒜苔制作过程。在推荐系统的帮助下：1）视频能被准确推荐给对乡村美食、农特产品感兴趣的用户；2）用户能顺势在同屏搜索框中搜索、了解蒜苔烹饪相关内容，扩展相关知识。</p> 
+<p style="text-indent:2em"><strong><span style="font-size:18px">6、算法如何服务人对安全的诉求？</span></strong></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">在人工智能技术快速发展的今天，内容安全一直是公众关注的重点。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">《报告》观察发现，当前很多内容创作与分发平台，从创立之初就将用户和内容安全视为最高优先级问题。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">以今日头条为例，在内容安全技术方面采用了鉴黄模型、谩骂模型以及低俗模型等内容识别技术。抖音安全中心则自主研发反欺诈模型、风控策略，结合抖音产品功能、内容属性、用户行为特征，对欺诈行为进行主动拦截。</p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/7732c7a1913248e6b37a98c365695827.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt;text-align:center">图9：抖音安全中心通过算法技术主动拦截欺诈行为</p> 
+<p style="text-indent:2em"><strong><span style="font-size:18px">7、推荐技术如何服务人对公平的诉求？</span></strong></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">《报告》认为，推荐系统中的“公平”是站在不同角度定义问题。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">比如在招聘网站上，求职者方可能将公平定义为“相同的学历和能力可以被推荐类似的工作，而不受国籍、种族和性别等偏见”；对于招聘方，“公平”可能为“系统可以将他们的招聘信息推给优质的求职者，而不会因为公司的背景等因素，只将招聘信息推给不太合适的求职者”。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">从关注的角度出发，《报告》认为公平性可分为<strong>“用户角度”、“物品角度”这两种公平性</strong>。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">用户偏好放大是针对用户方（user）的公平性问题，体现为用户搜索了一样东西后，接下来一段时间的推荐都与该物品相关。流行度偏差，则通常是针对物品方（items）的公平性问题，体现为推荐系统更多推荐较为流行的物品，而不流行的物品有较少的机会被推荐或展示，造成推荐系统中的“马太效应”。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">当前，学界对算法公平性的研究与探讨正不断深入。</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">麻省理工学院（MIT）在2021年发布的十大突破技术（10 Breakthrough Technologies）中指出，TikTok推荐算法能够使普通人发的内容有机会受到名人般的关注并流行起来，这是内容公平性的体现；而需求较为小众、细分的用户，也能看到符合自己兴趣的内容，则是用户角度公平性的体现。</p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/de21d02196f344ffa68adb9ab58b07ca.jpeg" width="554" height="312"></p> 
+<p style="text-align:center;text-indent:0px"><img src="../../images/2022-01/c9768bb611004a55b9bd5ff226f6c3df.jpeg" width="554" height="312"></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">图10： 在抖音等国内短视频直播平台上，也能看到更多推荐系统服务“用户”、“物品”公平的案例</p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt">附件：<a href="../../docs/2022-01/d69416554eef44a0bcab6e419809f0d6.pdf" download="算法向善与个性化推荐发展研究报告.pdf" rel="nofollow">算法向善与个性化推荐发展研究报告</a></p> 
+<p style="line-height:180%;text-indent:2em;font-size:14pt"><br></p>					
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript">
+    function searchwd(){
+      $("#searchForm").submit();
+    }
+</script>
+
+<div class="footer container-fluid  ">
+    <div class="info common_width">
+        <div class="row">
+            <div class="col-md-4 ">
+                <h5>友情链接</h5>
+                <ul>
+                    <li><a href="http://info.ruc.edu.cn/" target="_blank">
+                        中国人民大学信息学院
+                    </a></li>
+                    <li><a href="http://www.cast.org.cn/" target="_blank">
+                        中国科学技术协会
+                    </a></li>
+                    <li><a href="http://www.cipg.org.cn/" target="_blank">
+                        中国外文出版发行事业局
+                    </a></li>
+                </ul>
+
+            </div>
+            <div class="col-md-4 ">
+                <h5>联系</h5>
+                <ul>
+                    <li>
+                        ai@ruc.edu.cn | 86-10-62511257
+                    </li>
+                    <li>北京市海淀区中关村大街59号中国人民大学</li>
+                    <li>copyright 2021 中国人民大学高瓴人工智能学院</li>
+            </div>
+
+            <div class="col-md-4 ">
+                <h5>关注我们</h5>
+                <div style="display: inline-block">
+                        <span> <img src="../../images/cn_qrcode1.png" class="img-responsive"
+                                    style="width: 80px;float: left"> </span>
+                    <span>  <img src="../../images/cn_qrcode2.png" class="img-responsive"
+                                 style="width: 80px;float: left;margin-left: 10px;margin-right: 10px"> </span>
+                    <span> <img src="../../images/cn_qrcode3.png" class="img-responsive"
+                                style="width: 80px;float: left"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="point_out">
+    <span class="close_btn"></span>
+    <p>检测到您当前使用浏览器版本过于老旧，会导致无法正常浏览网站；请您使用电脑里的其他浏览器如：360、QQ、搜狗浏览器的速模式浏览，或者使用谷歌、火狐等浏览器。</p>
+    <a href="http://www.firefox.com.cn/" target="_blank">
+        <img src="./newindex_files/ff.png" alt="">
+        <span>下载Firefox</span>
+    </a>
+</div>
+
+</div>
+
+<div class="mobile-nav__wrapper">
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+    <!-- /.mobile-nav__overlay -->
+    <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+        <div class="logo-box">
+            <a href="index.html" aria-label="logo image"><img src="../../images/cn_ruc_logo_white.png" width="180"
+                                                              alt=""/></a>
+        </div>
+        <!-- /.logo-box -->
+        <div class="mobile-nav__container"></div>
+        <!-- /.mobile-nav__container -->
+
+        <ul class="mobile-nav__contact list-unstyled">
+            <li><i class="fa fa-link"></i> 友情链接</li>
+            <li><a href="http://info.ruc.edu.cn/" target="_blank">
+                中国人民大学信息学院
+            </a></li>
+            <li><a href="http://www.cast.org.cn/" target="_blank">
+                中国科学技术协会
+            </a></li>
+            <li><a href="http://www.cipg.org.cn/" target="_blank">
+                中国外文出版发行事业局
+            </a></li>
+            <li><i class="fa fa-user"></i> 联系</li>
+            <li>ai@ruc.edu.cn</li>
+            <li>86-10-62511257</li>
+        </ul>
+
+
+
+    </div>
+    <!-- /.mobile-nav__content -->
+</div>
+<script src="../../js/cn_theme.js"></script>
+
+<script>function createHttpRequest(){if(window.XMLHttpRequest){return new XMLHttpRequest()}else{if(window.ActiveXObject){return new ActiveXObject("Microsoft.XMLHTTP")}}}function myPost(url,data,fn){var req=createHttpRequest();req.open("POST",url,true);req.setRequestHeader("Content-Type","application/x-www-form-urlencoded");req.onreadystatechange=function(){if(req.readyState==4&&(req.status==200||req.status==304)){if(fn){fn.call(this,req.responseText)}}};req.send(toParam(data))}function myGet(url,fn){var req=createHttpRequest();req.open("GET",url,true);req.onreadystatechange=function(){if(req.readyState==4&&req.status==200||req.status==304){if(fn){fn.call(this,JSON.parse(req.responseText))}}};req.send()}function toParam(data){var str="";if(data){for(var key in data){str+=key+"="+data[key]+"&"}str=str.slice(0,-1)}return str}var Ajax={get:function(url,data,fn){url=url+"?"+toParam(data);myGet(url,fn)},post:function(url,data,fn){myPost(url,data,fn)}};var collect=function(data){try{var organId="ca9571502f8e4f92a14947d110b0882d";var organName="中国人民大学";var siteId=encodeURI("899f394ab4dd4a3eb491dae626e7d6ad");var siteName=encodeURI("高瓴人工智能学院ai");var channelId=encodeURI("eaf985c7e6ae44dd9950755b27151eed");var channelName=encodeURI("新闻");var articleId=encodeURI("063a0719d6524766b9410fd229792ae4");var articleName=encodeURI("“推荐算法”究竟是什么&#xff1f;这篇科普报告帮你快速了解");var url=location.href;if(!organId||!organName){return}data.organId=organId;data.organName=organName;if(!siteId||!siteName){return}data.siteId=siteId;data.siteName=siteName;if(channelId&&channelName){data.channelId=channelId;data.channelName=channelName}if(articleId&&articleName){data.articleId=articleId;data.articleName=articleName}if(url){data.url=url}return data}catch(e){}};var req1=function(url,data){Ajax.post(url,data,function(re){})};var req2=function(url,data){Ajax.get(url,data,function(re){try{document.getElementById("visit_count").innerHTML=re.body.visitCount}catch(e){}})};var collect1=function(data){var url="https://cloud.gpowersoft.com/collector/visit/write";req1(url,data)};var collect2=function(data){var url="https://cloud.gpowersoft.com/collector/visit/total/article/get";var countData={};countData.organId=data.organId;countData.siteId=data.siteId;countData.articleId=data.articleId;req2(url,countData)};var visitTime;document.ready=function(){try{var data={};data.duration=10000;data=collect(data);collect1(data);collect2(data);visitTime=new Date().getTime()}catch(e){console.log(e.message)}};document.ready();var flag=false;window.onbeforeunload=function(){try{flag=true;var data={};var now=new Date().getTime();if(visitTime&&now>visitTime){data.duration=now-visitTime;data=collect(data);collect1(data)}}catch(e){console.log(e.message)}};window.onunload=function(){try{if(flag){return}var data={};var now=new Date().getTime();if(visitTime&&now>visitTime){data.duration=now-visitTime;data=collect(data);collect1(data)}}catch(e){console.log(e.message)}};</script>	<script>	
+	window.onload=function(){  
+		
+	}			
+	</script>
+<script type="text/javascript">
+	jQuery.ajax({
+		url: '/wm/api/visit/write/article',
+		type: 'get',
+		data: {
+			siteID: 'b789c5741b814b2998e36b9a58c98f96',
+			articleID:'063a0719d6524766b9410fd229792ae4',
+			articleName:encodeURIComponent("“推荐算法”究竟是什么&#xff1f;这篇科普报告帮你快速了解")
+		}
+	})
+</script><script type='text/javascript' src='../../g_style/g_article.js'></script>
+</body></html>

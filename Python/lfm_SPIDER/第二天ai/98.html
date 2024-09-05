@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=11,10,9,edge">
+	<meta name="keywords" content="科研_中国人民大学高瓴人工智能学院">
+	<meta name="description" content="科研_中国人民大学高瓴人工智能学院">
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+	<title>文继荣教授：数据与智能驱动的社会科学研究</title>
+	<link rel="stylesheet" href="../../css/swiper.css">
+<link rel="stylesheet" href="../../css/animate.css">
+<link rel="stylesheet" href="../../css/bootstrap.min.css">
+<link rel="stylesheet" href="../../css/cn_ruc_style.css?v=2.0">
+<link rel="stylesheet" href="../../css/sina-nav-ruc.css?v=1.0">
+ <link rel="stylesheet" href="../../css/font-awesome.css?v=1.0">
+
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/wow.min.js"></script>
+<script src="../../js/all.js"></script>
+<script src="../../js/swiper.js"></script>
+<script src="../../js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="page-wrapper">
+<header class="main-header">
+        <nav class="main-menu">
+            <div class="container">
+                <div class="logo-box">
+                    <a href="index.html" aria-label="logo image"><img src="../../images/cn_ruc_logo.png" width="280" alt=""></a>
+                    <span class="mobile-nav__toggler"><i class="fa fa-bars"></i></span>
+                </div><!-- /.logo-box -->
+                <ul class="main-menu__list">
+                    <li>
+                        <a  href="../../index.htm">首页</a>
+                    </li>
+
+					 
+                 
+                    <li class="dropdown">
+
+  <a href="../../overview/intro/index.htm">学院概况</a>
+
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+
+                    <!--<a  style="cursor:pointer">学院概况</a>-->
+                    <ul>
+                                                <li><a href="../../overview/intro/index.htm">学院简介</a></li>
+                                                <li><a href="../../overview/message/index.htm">学院寄语</a></li>
+                                                <li><a href="../../overview/leadership/index.htm">领导机构</a></li>
+                                            </ul>
+					                </li>
+                
+                 
+                    <li class="dropdown">
+
+  <a href="../../newslist/newsdetail/index.htm">新闻公告</a>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+
+                    <!--<a  style="cursor:pointer">新闻公告</a>-->
+                    <ul>
+                                                <li><a href="../../newslist/newsdetail/index.htm">学院新闻</a></li>
+                                                <li><a href="../../newslist/notice/index.htm">学院公告</a></li>
+                                                <li><a href="../../newslist/xwrw/index.htm">新闻人物</a></li>
+                                                <li><a href="../../newslist/jcsp/index.htm">精彩视频</a></li>
+                                                <li><a href="../../newslist/lecture/index.htm">学术讲座</a></li>
+                                            </ul>
+					                </li>
+                
+                 
+                    <li class="dropdown">
+
+  <a href="https://gsai.ruc.edu.cn">师资队伍</a>
+
+                        
+                        
+                        
+                        
+
+
+
+                    <!--<a  style="cursor:pointer">师资队伍</a>-->
+                    <ul>
+                                                <li><a href="https://gsai.ruc.edu.cn">师资队伍</a></li>
+                                                <li><a href="../../academicfaculty/rczp/index.htm">人才招聘</a></li>
+                                            </ul>
+					                </li>
+                
+                 
+                    <li class="dropdown">
+
+  <a href="https://gsai.ruc.edu.cn/addons/teacher/index/tutor.html">学生培养</a>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+
+
+                    <!--<a  style="cursor:pointer">学生培养</a>-->
+                    <ul>
+                                                <li><a href="https://gsai.ruc.edu.cn/addons/teacher/index/tutor.html">人才培养导师组</a></li>
+                                                <li><a href="../../student/undergraduate/index.htm">本科生</a></li>
+                                                <li><a href="../../student/master/index.htm">学术型硕士</a></li>
+                                                <li><a href="../../student/doctor/index.htm">博士生</a></li>
+                                                <li><a href="../../student/educationNotice/index.htm">教育公告</a></li>
+                                            </ul>
+					                </li>
+                
+  <li >
+<a href="http://www.globalhha.com/"  target="_self"><span class="cn">高礼研究院</span></a>
+                </li>
+                                </ul>
+                <!-- /.main-menu__list -->
+
+                <div class="main-header__info">
+                    <div class="main-header__info-phone">
+                        <a href="http://ai.ruc.edu.cn/english/index.htm" class="text-danger">En</a>
+                    </div>
+                    <div class="main-header__info-phone">
+                        <a  id="search_btn"  onclick="searchwd()"><i class="fa fa-search"></i></a>
+                    </div>
+
+                    <div class="main-header__info-phone">
+                        <a href="https://gsai.ruc.edu.cn/index/user/login.html" title="教师入口">教师入口</a>
+                    </div>
+                </div><!-- /.main-header__info -->
+            </div><!-- /.container -->
+        </nav>
+        <!-- /.main-menu -->
+    </header><!-- /.main-header -->
+
+   <div class="common_width search_warp wrapper-md" id="search_warp" style="display: none">
+        <form action="/cms/web/search/index.jsp" id="searchForm"  class="">
+            <div class="input-group input-group-lg">
+                <input type="hidden" name="siteID" value="899f394ab4dd4a3eb491dae626e7d6ad"/>
+                <input type="text" class="form-control " name="query" placeholder="请输入关键词检索内容"/>
+                <input type="hidden" name="sortField" value="publishDate">
+                <input type="hidden" name="searchScope" value="0"/>
+                <span class="input-group-btn">
+       <button name="submitok" type="button" class="btn btn-danger input-lg  ">检索</button>
+   </span>
+            </div>
+        </form>
+    </div>
+
+    <div class="stricky-header stricked-menu main-menu">
+        <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+    </div><!-- /.stricky-header -->	<div class="page">
+		<div class="page_tit">
+			<div class="common_width">
+				
+			</div>
+		</div>
+		<div class="page_content clearfix common_width_1">
+			<div class="fl">
+				<h2>科研</h2>
+				<ul class="left_nav">
+										<li><a href="../gsaiacademic/index.htm">国际</a></li>
+										<li><a href="index.htm">科研</a></li>
+									</ul>
+			</div>
+			<div class="fr">
+<div class="crumbs">您所在的位置：
+										<a href="../../index.htm">首页<span>-</span></a>
+										<a href="../index.htm">科研<span>-</span></a>
+										<a href="index.htm">科研<span>-</span></a>
+									</div>
+				<h3 style="display: none;"><span>科研</span></h3>
+				<div class="tit text-left">
+					<h6>文继荣教授：数据与智能驱动的社会科学研究</h6>
+					<span>日期：2020-05-09</span><span>访问量：<span id="visit_count"  style="padding:0;"><script src="/wm/api/visit/get/article?siteID=b789c5741b814b2998e36b9a58c98f96&articleID=8c229ed7ca554e5096753d607ab85610" async>
+</script>
+</span></span><div class="bdsharebuttonbox fr" style="    width: auto;"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_more" data-cmd="more"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+				</div>																				
+				<p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">“首届智能社会治理论坛暨中国人民大学第五届民生论坛”于2019年11月19日隆重开幕，11位重量级专家学者与业界人士围绕智能社会治理面临的新形势、新挑战、新理念作了精彩纷呈、内容丰富的发言。</p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">本文呈现由中国人民大学高瓴人工智能学院执行院长、智能社会治理中心执行主任<strong>文继荣教授带来的精彩演讲：“数据与智能驱动的社会科学研究”。以下内容根据文继荣教授现场演讲实录整理。</strong></p><p style="text-align:center;text-indent:0px;"><img src="../../images/2020-05/205a43da4fc5474aa61e9e218991098b.png" title="205a43da4fc5474aa61e9e218991098b.png" alt="A1 文.png"/></p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">非常高兴能做第一个演讲者。今天的论坛主题是智能社会治理，它有两种断句方法，一个是智能的社会治理，另一个是智能社会的治理。前者更多是从技术层面上谈如何能够提升社会治理的水平，后者是指在未来的智能社会中，对于众多智能社会问题的研究。我今天主要讲前者，即如何把人工智能技术应用到社会科学研究与智能社会治理当中。</p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;"><strong>现状：数据、算法、计算能力与场景驱动飞速发展</strong></p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">所有的研究都是为了达到这样的目标：从多变的样本中寻找出背后稳定的客观规律。尤其是自然科学，一直在寻找这样的规律、模型、方程。这种方法本质上是一种科学主义传统或者理性主义传统，一旦掌握了规律，就可以用模型来解释各种各样的现象。</p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">在人类发展历史上，尤其在科学发展进程中，我们一直在各个领域探寻简单的模型，模型越简单，就越具有普适性，也是好的模型的体现。这种方法在自然科学领域取得了很大成功，但如果在经济学、社会学等社会科学领域运用并进行研究，会非常困难。原因是社会科学研究的问题比自然科学研究的问题更加复杂。比如人脸识别时，只需要输入一个图像看看是不是即可，但是到了社会科学里，变量与变量间的关系非常复杂，且变量很多，这对于模型的描述和建构提出了很大的挑战。</p><p style="text-align:center;text-indent:0px;"><img src="../../images/2020-05/5b7e96252b70419aa4d60707eacad635.png" title="5b7e96252b70419aa4d60707eacad635.png" alt="A2.png"/></p><p style="text-align:center;text-indent:0px;"><img src="../../images/2020-05/d1607fa729014df59c09df4934072bbd.png" title="d1607fa729014df59c09df4934072bbd.png" alt="A3.png"/></p><p style="text-align:center;text-indent:0px;"><img src="https://cmst.ruc.edu.cn/cms/content/previewEditorImage/2f0bc222b670464ebdb3e8f64d532bf0.png" title="2f0bc222b670464ebdb3e8f64d532bf0.png" alt="A4.png" style="color: rgb(12, 6, 1); font-size: 14px; text-indent: 37.3333px; white-space: normal;"/></p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;"><strong>探索数据与智能驱动的社会科学研究新范式</strong></p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">技术发展带来了数据世界，数据世界里的人物、关系、矛盾、情感、冲突等，都可以映射到数字世界中，借助数据和智能驱动，之前难以研究的问题可以实现用新思路、新方法和新工具来进行分析和建模。</p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">近期，在研究中国产业转移问题时，我们将几十万条新闻相关的数据抽取出来，之后描绘出产业转移地图并进行分析。通过研究发现，北京的产业转移大多去往周边，上海的产业转移通常去往中东部。通过这样的研究方式，可以将产业转移形象化、可视化，并且能够揭示出其中隐含的规律。</p><p style="text-align:center;text-indent:0px;"><img src="../../images/2020-05/241170856a0e46d2b95b067e6602bcd9.png" title="241170856a0e46d2b95b067e6602bcd9.png" alt="A5.png"/></p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">法律与大数据和人工智能相结合研究的实例非常多。借助数据，可以对几千万份法律文本判决书进行有效地系统分析。下图是针对“扫黑除恶”问题所做的国内地域分布研究，图上颜色越深，表示该地域黑社会群体越多。诸如此类的研究从数据中呈现出来，技术工作者协同法律专家一同进行深度解读。此外，运用人工智能技术还可做定罪量刑，在定罪系统中输入案由，可以实现自动定罪。目前人工智能定罪系统与真正的犯罪结果吻合度可达90%。</p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">当前大数据、人工智能等新兴技术与社会科学相结合的研究，也需要注意一些问题。很多领域缺乏直接的数据，或经常面临非结构化的文本数据，需要通过技术做转换。此外，抽取哪类数据、分析何种主题，计算机专家需要协同相关领域内的专家合作，来共同设计架构、解读结果。</p><p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;"><strong>总之，很多社会科学研究会受益于大数据、人工智能等新兴技术，值得将数据与智能驱动的社会科学研究作为一种新的研究范式进行推广。</strong></p>					
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript">
+    function searchwd(){
+      $("#searchForm").submit();
+    }
+</script>
+
+<div class="footer container-fluid  ">
+    <div class="info common_width">
+        <div class="row">
+            <div class="col-md-4 ">
+                <h5>友情链接</h5>
+                <ul>
+                    <li><a href="http://info.ruc.edu.cn/" target="_blank">
+                        中国人民大学信息学院
+                    </a></li>
+                    <li><a href="http://www.cast.org.cn/" target="_blank">
+                        中国科学技术协会
+                    </a></li>
+                    <li><a href="http://www.cipg.org.cn/" target="_blank">
+                        中国外文出版发行事业局
+                    </a></li>
+                </ul>
+
+            </div>
+            <div class="col-md-4 ">
+                <h5>联系</h5>
+                <ul>
+                    <li>
+                        ai@ruc.edu.cn | 86-10-62511257
+                    </li>
+                    <li>北京市海淀区中关村大街59号中国人民大学</li>
+                    <li>copyright 2021 中国人民大学高瓴人工智能学院</li>
+            </div>
+
+            <div class="col-md-4 ">
+                <h5>关注我们</h5>
+                <div style="display: inline-block">
+                        <span> <img src="../../images/cn_qrcode1.png" class="img-responsive"
+                                    style="width: 80px;float: left"> </span>
+                    <span>  <img src="../../images/cn_qrcode2.png" class="img-responsive"
+                                 style="width: 80px;float: left;margin-left: 10px;margin-right: 10px"> </span>
+                    <span> <img src="../../images/cn_qrcode3.png" class="img-responsive"
+                                style="width: 80px;float: left"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="point_out">
+    <span class="close_btn"></span>
+    <p>检测到您当前使用浏览器版本过于老旧，会导致无法正常浏览网站；请您使用电脑里的其他浏览器如：360、QQ、搜狗浏览器的速模式浏览，或者使用谷歌、火狐等浏览器。</p>
+    <a href="http://www.firefox.com.cn/" target="_blank">
+        <img src="./newindex_files/ff.png" alt="">
+        <span>下载Firefox</span>
+    </a>
+</div>
+
+</div>
+
+<div class="mobile-nav__wrapper">
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+    <!-- /.mobile-nav__overlay -->
+    <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+        <div class="logo-box">
+            <a href="index.html" aria-label="logo image"><img src="../../images/cn_ruc_logo_white.png" width="180"
+                                                              alt=""/></a>
+        </div>
+        <!-- /.logo-box -->
+        <div class="mobile-nav__container"></div>
+        <!-- /.mobile-nav__container -->
+
+        <ul class="mobile-nav__contact list-unstyled">
+            <li><i class="fa fa-link"></i> 友情链接</li>
+            <li><a href="http://info.ruc.edu.cn/" target="_blank">
+                中国人民大学信息学院
+            </a></li>
+            <li><a href="http://www.cast.org.cn/" target="_blank">
+                中国科学技术协会
+            </a></li>
+            <li><a href="http://www.cipg.org.cn/" target="_blank">
+                中国外文出版发行事业局
+            </a></li>
+            <li><i class="fa fa-user"></i> 联系</li>
+            <li>ai@ruc.edu.cn</li>
+            <li>86-10-62511257</li>
+        </ul>
+
+
+
+    </div>
+    <!-- /.mobile-nav__content -->
+</div>
+<script src="../../js/cn_theme.js"></script>
+
+<script>function createHttpRequest(){if(window.XMLHttpRequest){return new XMLHttpRequest()}else{if(window.ActiveXObject){return new ActiveXObject("Microsoft.XMLHTTP")}}}function myPost(url,data,fn){var req=createHttpRequest();req.open("POST",url,true);req.setRequestHeader("Content-Type","application/x-www-form-urlencoded");req.onreadystatechange=function(){if(req.readyState==4&&(req.status==200||req.status==304)){if(fn){fn.call(this,req.responseText)}}};req.send(toParam(data))}function myGet(url,fn){var req=createHttpRequest();req.open("GET",url,true);req.onreadystatechange=function(){if(req.readyState==4&&req.status==200||req.status==304){if(fn){fn.call(this,JSON.parse(req.responseText))}}};req.send()}function toParam(data){var str="";if(data){for(var key in data){str+=key+"="+data[key]+"&"}str=str.slice(0,-1)}return str}var Ajax={get:function(url,data,fn){url=url+"?"+toParam(data);myGet(url,fn)},post:function(url,data,fn){myPost(url,data,fn)}};var collect=function(data){try{var organId="ca9571502f8e4f92a14947d110b0882d";var organName="中国人民大学";var siteId=encodeURI("899f394ab4dd4a3eb491dae626e7d6ad");var siteName=encodeURI("高瓴人工智能学院ai");var channelId=encodeURI("08a1eb805d394e6da3ca978848678fb8");var channelName=encodeURI("science");var articleId=encodeURI("8c229ed7ca554e5096753d607ab85610");var articleName=encodeURI("文继荣教授：数据与智能驱动的社会科学研究");var url=location.href;if(!organId||!organName){return}data.organId=organId;data.organName=organName;if(!siteId||!siteName){return}data.siteId=siteId;data.siteName=siteName;if(channelId&&channelName){data.channelId=channelId;data.channelName=channelName}if(articleId&&articleName){data.articleId=articleId;data.articleName=articleName}if(url){data.url=url}return data}catch(e){}};var req1=function(url,data){Ajax.post(url,data,function(re){})};var req2=function(url,data){Ajax.get(url,data,function(re){try{document.getElementById("visit_count").innerHTML=re.body.visitCount}catch(e){}})};var collect1=function(data){var url="https://cloud.gpowersoft.com/collector/visit/write";req1(url,data)};var collect2=function(data){var url="https://cloud.gpowersoft.com/collector/visit/total/article/get";var countData={};countData.organId=data.organId;countData.siteId=data.siteId;countData.articleId=data.articleId;req2(url,countData)};var visitTime;document.ready=function(){try{var data={};data.duration=10000;data=collect(data);collect1(data);collect2(data);visitTime=new Date().getTime()}catch(e){console.log(e.message)}};document.ready();var flag=false;window.onbeforeunload=function(){try{flag=true;var data={};var now=new Date().getTime();if(visitTime&&now>visitTime){data.duration=now-visitTime;data=collect(data);collect1(data)}}catch(e){console.log(e.message)}};window.onunload=function(){try{if(flag){return}var data={};var now=new Date().getTime();if(visitTime&&now>visitTime){data.duration=now-visitTime;data=collect(data);collect1(data)}}catch(e){console.log(e.message)}};</script>	<script>	
+	window.onload=function(){  
+		
+	}			
+	</script>
+<script type="text/javascript">
+	jQuery.ajax({
+		url: '/wm/api/visit/write/article',
+		type: 'get',
+		data: {
+			siteID: 'b789c5741b814b2998e36b9a58c98f96',
+			articleID:'8c229ed7ca554e5096753d607ab85610',
+			articleName:encodeURIComponent("文继荣教授：数据与智能驱动的社会科学研究")
+		}
+	})
+</script><script type='text/javascript' src='../../g_style/g_article.js'></script>
+</body></html>
