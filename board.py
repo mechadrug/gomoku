@@ -30,7 +30,21 @@ class Board:
 
     def check_winner(self):
         """检查是否有玩家胜利,返回赢家颜色(1 或 -1),没有则返回0"""
-        pass
+        for i,row in enumerate(self.board):#横向检测
+            num = 0
+            for j,col in enumerate(self.board[i]):
+                if j==0 and self.board[i][j]!=0:
+                    num+=1
+                elif self.board[i][j]==self.board[i][j-1]!=0:
+                    num+=1
+                elif self.board[i][j]!=self.board[i][j-1]:
+                    if self.board[i][j]!=0:
+                        num=1
+                    else:
+                        num =0
+                if num ==5:
+                    return self.board[i][j]
+        return 0
 def get_user_input():
     """获取用户输入的坐标"""
     while True:
@@ -59,11 +73,11 @@ def game_loop():
         else:
             print("该位置已被占用，请重新输入。")
 
-        # 检查是否有玩家获胜（此处未实现，可加入胜负判断）
-        # winner = board.check_winner()
-        # if winner:
-        #     print(f"玩家 {'黑棋' if winner == 1 else '白棋'} 获胜！")
-        #     break
+        #检查是否有玩家获胜（此处未实现，可加入胜负判断）
+        winner = board.check_winner()
+        if winner:
+             print(f"玩家 {'黑棋' if winner == 1 else '白棋'} 获胜！")
+             break
 
 if __name__ == "__main__":
     game_loop()
