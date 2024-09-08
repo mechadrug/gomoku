@@ -42,9 +42,40 @@ class Board:
                         num=1
                     else:
                         num =0
-                if num ==5:
+                if num >=5:
                     return self.board[i][j]
+        for i in range(self.size):#竖向检测
+            for j in range(self.size):
+                if j==0 and self.board[j][i]!=0:
+                    num +=1
+                elif self.board[j][i]==self.board[j-1][i]!=0:
+                    num+=1
+                elif self.board[j][i]==self.board[i][j-1]:
+                    if self.board[j][i]!=0:
+                        num=1
+                    else:
+                        num = 0
+                if num >=5:
+                    return self.board[j][i]
         return 0
+    def check_slant(self,x,y,current_player):#处理斜向
+        def get_point(r,c,dr,dc):
+            count=0
+            while 0<=r<=self.size and 0<=c<=self.size and self.board[r][c]==current_player:
+                r+=dr
+                c+=dc
+                count+=1
+            
+            return count
+        count1=get_point(x,y,1,1)+get_point(x,y,-1,-1)-1
+        print(count1)
+        if count1>=5:
+            return True
+        count2=get_point(x,y,1,-1)+get_point(x,y,-1,1)-1
+        print(count2)
+        if count2>=5:
+            return True
+        return False
 def get_user_input():
     """获取用户输入的坐标"""
     while True:
@@ -75,9 +106,14 @@ def game_loop():
 
         #检查是否有玩家获胜（此处未实现，可加入胜负判断）
         winner = board.check_winner()
+        
         if winner:
-             print(f"玩家 {'黑棋' if winner == 1 else '白棋'} 获胜！")
-             break
+            print(f"玩家 {'黑棋' if winner == 1 else '白棋'} 获胜！")
+            break
+        winner2=board.check_slant(x,y,-current_player)
+        if winner2:
+            print(f"玩家 {'黑棋' if winner2 else '白棋'} 获胜！")
+            break
 
 if __name__ == "__main__":
     game_loop()
