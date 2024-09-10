@@ -1,5 +1,5 @@
 from board import Board
-#from ai import AI
+from ai import AI
 
 class GomokuGame:
     def __init__(self):
