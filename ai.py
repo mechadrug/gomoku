@@ -3,7 +3,7 @@ from board import Board
 class AI:
     def __init__(self):
         pass
-    def evaluate(self):#评估函数
+    def evaluate(self,board,player):#评估函数
         pass
     def alpha_beta(self,depth,alpha,beta,is_AI,board,x,y,current_winner):#实现对于局面的测算
         if depth==0 or board.check_winner() or board.check_slant(x,y,current_winner):

@@ -17,9 +17,9 @@ class GomokuGame:
             self.player_turn()
             if self.check_end_game(self.x,self.y,self.current_player):
                 break
-            #self.ai_turn()
-            #if self.check_end_game(self.x,self.y,self.current_player):
-               #break
+            self.ai_turn()
+            if self.check_end_game(self.x,self.y,self.current_player):
+               break
 
     def player_turn(self):
         """处理玩家的输入和下棋"""
@@ -39,8 +39,8 @@ class GomokuGame:
             print("该位置已被占用，请重新输入。")
 
         
-   # def ai_turn(self):
-        #"""AI下棋逻辑"""
+    def ai_turn(self):
+        """AI下棋逻辑"""
         #move = self.ai.get_move(self.board)
         #self.board.place_stone(move[0], move[1], -1)  # AI通常是白棋
 
